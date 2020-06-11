@@ -1,36 +1,1000 @@
-    1  exit
-    2  clear
-    3  pwd
-    4  ls
-    5  exit
-    6  cd vagrant
-    7  ls
-    8  pwd
-    9  cd ..
-   10  ls
-   11  touch test.txt
-   12  ls
-   13  cd /vagrant
-   14  ls
-   15  cd ..
-   16  pwd
-   17  ls
-   18  cd ..
-   19  ls
-   20  cd /vagrant
-   21  ls
-   22  touch test.txt
-   23  clear
-   24  ls
-   25  python hello_world.py
-   26  python -m venv ~/env
-   27  source ~/env/bin/activate
-   28  deactivate
-   29  source ~/env/bin/activate
-   30  ls
-   31  gedit requirements.txt
-   32  pip install -r requirements.txt
-   33  ls
-   34  django-admin startproject profiles_project .
-   35  python manage.py startapp profiles_api
-   36  history > history.txt
+   99  wine3
+  100  winehq
+  101  wine --version
+  102  wine
+  103  wine NFS13.exe
+  104  remove wine
+  105  delete wine
+  106  rm wine
+  107  sudo apt-get remove wine64
+  108  wine --version
+  109  sudo apt-get remove wine
+  110  wine --version
+  111  sudo apt autoremove wine
+  112  wine --version
+  113  clear
+  114  sudo apt-get install gdebi-core
+  115  wget ftp://ftp.adobe.com/pub/adobe/reader/unix/9.x/9.5.5/enu/AdbeRdr9.5.5-1_i386linux_enu.deb
+  116  $ sudo gdebi AdbeRdr9.5.5-1_i386linux_enu.deb
+  117  acroreader
+  118  acroread
+  119  adobe --version
+  120  scroread --version
+  121  acroread --version
+  122  adobe-reader --version
+  123  adobe-reader-9 --version
+  124  adobereader --version
+  125  adobereader-enu --version
+  126  sudo apt-get purge adobereader-enu
+  127  79%12
+  128  2 = 3
+  129  2+3
+  130  python3
+  131  focuswriter
+  132  clear
+  133  ls .fonts
+  134  ls -a
+  135  sudo ./install.sh
+  136  xdm
+  137  xdman
+  138  sudo add-apt-repository ppa:noobslab/apps
+  139  sudo apt-get update
+  140  sudo apt-get install xdman
+  141  python3
+  142  clear
+  143  clrae
+  144  clear
+  145  focuswriter
+  146  synaptic --version
+  147  sudo apt-get install synaptic
+  148  synaptic --version
+  149  $ sudo add-apt-repository ppa:gerardpuig/ppa
+  150  sudo sudo apt-get update
+  151  sudo apt-get install ubuntu-cleaner
+  152  ./pycharm.sh
+  153  pycharm --version
+  154  add ./bin
+  155  sudo apt-get remove pycharm
+  156  focuswriter
+  157  focuswriter --version
+  158  focuswriter
+  159  clear
+  160  focuswriter
+  161  clear
+  162  python3
+  163  clear
+  164  focuswriter
+  165  thunderbird
+  166  celar
+  167  sudo apt-get remove thunderbird
+  168  firefox
+  169  * --version
+  170  ls-a --version
+  171  ls --version
+  172  sudo apt-get install ultracopier
+  173  sudo apt-get update
+  174  sudo apt-get install ultracopier
+  175  ultracopier --version
+  176  sudo apt-remove ultracopier
+  177  sudo apt-get remove ultracopier
+  178  ultracopier --version
+  179  sudo apt-get update
+  180  celar
+  181  clear
+  182  sudo apt-get remove ultracopier
+  183  sudo apt autoremove
+  184  clear
+  185  sudo apt-get install ultracopier
+  186  ultracopier
+  187  focuswriter
+  188  clear
+  189  focuswriter
+  190  clear
+  191  focuswriter
+  192  pycharm.sh
+  193  ./pycharm.sh
+  194  pycharm
+  195  sudo apt-get update
+  196  composer
+  197  php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+  198  php -r "if (hash_file('sha384', 'composer-setup.php') === 'a5c698ffe4b8e849a443b120cd5ba38043260d5c4023dbf93e1558871f1f07f58274fc6f4c93bcfd858c6bd0775cd8d1') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+  199  php composer-setup.php
+  200  sudo apt install php7.2-cli
+  201  sudo apt install php7.2
+  202  php -v
+  203  clear
+  204  sudo apt install composer
+  205  wine =v
+  206  wine -v
+  207  php -v
+  208  php - v
+  209  php -v
+  210  sudo chmod +x xampp-linux-x64-7.3.9-0-installer.run
+  211  sudo ./xampp-linux-x64-7.3.9-0-installer.run
+  212  cd /opt/lampp
+  213  ls
+  214  sudo manager-linux-x64.run
+  215  sudo ./manager-linux-x64.run
+  216  sudo apachectl stop
+  217  clear
+  218  sudo add-apt-repository ppa:webupd8team/brackets
+  219  sudo apt-get update
+  220  sudo apt-get install brackets
+  221  sudo apt-get update
+  222  sudo apt-get install brackets
+  223  clear
+  224  sudo apt-get install brackets
+  225  clear
+  226  sudo apt-get install brackets
+  227  brackets
+  228  sudo snap install phpstorm --classic
+  229  clear
+  230  sudo snap install phpstorm --classic
+  231  ubuntu -v
+  232  sudo dpkg -i ./virtualbox-6.0_6.0.10-132072~Ubuntu~bionic_amd64.deb
+  233  virtualbox
+  234  rm virtualbox
+  235  sudo dpkg -i ./virtualbox-6.0_6.0.10-132072~Ubuntu~bionic_amd64.deb
+  236  sudo dpkg -r ./virtualbox-6.0_6.0.10-132072~Ubuntu~bionic_amd64.deb
+  237  sudo dpkg -r oracle
+  238  dpkg --list
+  239  sudo dpkg -i ./virtualbox-6.0_6.0.10-132072~Ubuntu~bionic_amd64.deb
+  240  apt-get -f install
+  241  sudo apt-get -f install
+  242  sudo apt-get update
+  243  sudo apt-get -f install
+  244  focuswriter
+  245  ./Anaconda3-2019.07-Linux-x86_64.sh
+  246  sudo ./Anaconda3-2019.07-Linux-x86_64.sh
+  247  sudo /Anaconda3-2019.07-Linux-x86_64.sh
+  248  sudo ./Anaconda3-2019.07-Linux-x86_64.sh
+  249  sudo ./anaconda.sh
+  250  sudo /anaconda.sh
+  251  sudo anaconda.sh
+  252  bash anaconda.sh
+  253  anaconda
+  254  anaconda -v
+  255  anaconda-navigator
+  256  help anaconda
+  257  info anaconda
+  258  man -k anaconda
+  259  anaconda
+  260  anaconda-spyder
+  261  firefox
+  262  sudo apt-get update
+  263  sudo apt-get install r-base
+  264  clear
+  265  anaconda-navigator
+  266  sudo apt-get update
+  267  sudo apt-get install r-base
+  268  r -v
+  269  R -v
+  270  text-editor
+  271  history
+  272  sudo dpkg -i ./rstudio-1.2.5001-amd64.deb
+  273  sudo apt-get -f install
+  274  xdm
+  275  rstudio
+  276  focuswriter
+  277  anaconda-navigator
+  278  history
+  279  flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+  280  sudo apt install flatpak
+  281  flatpak install https://flatpak.citra-emu.org/citra-nightly.flatpakref
+  282  anaconda-navigator
+  283  cd /etc/apache2/
+  284  ls
+  285  cd /etc/php/
+  286  ls
+  287  cd 7.2/
+  288  ls
+  289  cd apache2/
+  290  ls
+  291  sudo vi php.ini 
+  292  cd /etc/php
+  293  ls
+  294  cd 7.2/
+  295  cd apache2/
+  296  clear
+  297  s
+  298  ls
+  299  sudo geddit php.ini 
+  300  sudo gedit php.ini 
+  301  composer -v
+  302  clear
+  303  ls
+  304  cd D
+  305  cd Documents/
+  306  ls
+  307  unzip listing_app-master.zip /listin-app
+  308  unzip listing_app-master.zip 
+  309  clear
+  310  ls
+  311  l
+  312  ls
+  313  clear
+  314  composer install
+  315  clear
+  316  composer install
+  317  php --ini
+  318  composer install
+  319  clear
+  320  composer install
+  321  phpenmod ext-cu
+  322  phpenmod ext-curl
+  323  phpenmod mbstring
+  324  clear
+  325  phpenmod mbstring
+  326  clear
+  327  composer install
+  328  sudo systemctl apache2 reload
+  329  apt-get install php-curl
+  330  sudo apt-get install php-curl
+  331  clear
+  332  ls
+  333  clear
+  334  composer install
+  335  sudo apt-get install php-mbstring
+  336  composer install
+  337  sudo apt-get install php-dom
+  338  clear
+  339  composer install
+  340  clear
+  341  ls
+  342  clear
+  343  cd ../
+  344  ls
+  345  mv listing_app-master /var/www/html/
+  346  sudo mv listing_app-master /var/www/html/
+  347  cd /var/www/html/
+  348  ls
+  349  mv listing_app-master/ listing
+  350  sudo mv listing_app-master/ listing
+  351  ls
+  352  cd listing/
+  353  clear
+  354  ls
+  355  cd ../
+  356  clear
+  357  ls -li
+  358  clear
+  359  sudo systemctl apache2 start
+  360  cd listing/
+  361  ls
+  362  cd public/
+  363  ls
+  364  sudo vi php_ini.ini
+  365  cat php.ini
+  366  cat php_ini.ini 
+  367  mv php.ini php_old.ini
+  368  sudo mv php.ini php_old.ini
+  369  sudo mv php_ini.ini php.ini
+  370  clear
+  371  cd ../
+  372  cd cli/
+  373  ls
+  374  mv php.ini php_inimob.ini
+  375  sudo mv php.ini php_inimob.ini
+  376  sudo cp ../apache2/php.ini  ./php.ini
+  377  ls
+  378  clear
+  379  php ---ini
+  380  clear
+  381  ls
+  382  rm php
+  383  rm php.ini 
+  384  sudo rm php.ini 
+  385  mv php_inimob.ini php.ini
+  386  sudo mv php_inimob.ini php.ini
+  387  cd ../apache2/
+  388  ls
+  389  sudo rm php.ini 
+  390  sudo mv php_old.ini php.ini
+  391  clear
+  392  phpenmodclear
+  393  clear
+  394  ls
+  395  cd ../cli/
+  396  clear
+  397  ls
+  398  clear
+  399  sudo gedit php.ini 
+  400  cd /etc/apache
+  401  cd /etc/apache2/
+  402  clear
+  403  ls
+  404  cd sites-available/
+  405  ls
+  406  mv default-ssl.conf listin-app.conf
+  407  sudo mv default-ssl.conf listin-app.conf
+  408  clear
+  409  ls
+  410  sudo mv  listin-app.conf default-sll.conf
+  411  clear
+  412  ls
+  413  cp 000-default.conf listing-app.conf
+  414  sudo cp 000-default.conf listing-app.conf
+  415  clear
+  416  ls
+  417  sudo vi listing-app.conf 
+  418  sudo gedit listing-app.conf 
+  419  cd /opt/lampp
+  420  ls
+  421  sudo ./manager-linux-x64.run
+  422  sudo apachectl stop
+  423  sudo ./manager-linux-x64.run
+  424  anaconda-navigator
+  425  cd ..
+  426  ls
+  427  cd etc
+  428  ls
+  429  cd local
+  430  cd rc.local
+  431  anaconda-navigator
+  432  python
+  433  pip install sympy
+  434  python
+  435  sudo apt-get install gparted
+  436  anaconda-navigator
+  437  anaconda - navigator
+  438  anaconda -navigator
+  439  anaconda-navigator
+  440  anaconda -nav
+  441  anaconda-navigator
+  442  bt-device
+  443  sudo apt-get update
+  444  sudo apt-get install xchm
+  445  pip
+  446  python
+  447  anaconda-navigator
+  448  conda-install jupyterthemes
+  449  conda install jupyterthemes
+  450  ;
+  451  python f.py
+  452  cd Desktop
+  453  python f.py
+  454  sudo apachectl stop
+  455  pip -v
+  456  pip-v
+  457  pip --v
+  458  pip -version
+  459  cd /opt/lampp
+  460  sudo
+  461  ls
+  462  cd lampp
+  463  sudo manager-linux-x64.run
+  464  sudo ./manager-linux-x64.run
+  465  anaconda-navigator
+  466  cd /opt/lampp
+  467  sudo ./manager-linux-x64.run
+  468  anaconda-navigator
+  469  cd Desktop
+  470  pip3 install simplejson
+  471  pip install simplejson
+  472  pip install virtualenv
+  473  python
+  474  pip-v
+  475  pip -v
+  476  pip --v
+  477  pip --version
+  478  pip install simplejson
+  479  pip install flask
+  480  pip install Flask
+  481  pip remove simplejson
+  482  pip uninstall simplejson
+  483  pip install requests
+  484  sudo apt-get update
+  485  pip3 install django
+  486  pip install django
+  487  pip install requests
+  488  anaconda-navigator
+  489  pip install django
+  490  firefox
+  491  history
+  492  sudo apachectl stop
+  493  cd /opt/lamopp
+  494  cd /opt/lampp
+  495  ls
+  496  sudo ./manager-linux=x64.run
+  497  sudo ./manager-linux.x64.run
+  498  sudo ./manager-linux-x64.run
+  499  jupyter notebook stop 888
+  500  jupyter notebook stop 8888
+  501  chmod 'x' cd/opt/lampp/apache2/htdocs
+  502  chmod x cd/opt/lampp/apache2/htdocs
+  503  chmod 7777 cd/opt/lampp/apache2/htdocs
+  504  sudo chmod 7777 cd/opt/lampp/apache2/htdocs
+  505  sudo chmod 7777 /opt/lampp/apache2/htdocs
+  506  chmod 7777 ./
+  507  sudo chmod 7777 ./
+  508  sudo chmod a+rwx ./
+  509  chmod x ./
+  510  sudo chmod a+rwx ./
+  511  gedit web.php
+  512  cd /opt/lampp
+  513  cd mysql
+  514  cd bin
+  515  ls
+  516  cd ..
+  517  ls
+  518  cd mysql
+  519  ls
+  520  cd scripts
+  521  ls
+  522  ./ctl.sh
+  523  cd /
+  524  mysql -u root -p
+  525  cd Desktop
+  526  gedit 3.js
+  527  cd Desktop
+  528  gedit 3.html
+  529  brackets p9.php
+  530  gedit p9.php
+  531  cd Desktop
+  532  gedit 5.xml
+  533  gedit xml.css
+  534  cd Desktop
+  535  gedit calculator.html
+  536  gedit
+  537  pip install beautifulsoup
+  538  pip install beautifulsoup4
+  539  bs4 --version
+  540  pip install bs4
+  541  pip bs4 --version
+  542  bs4 --version
+  543  sudo apt-get update
+  544  pip install bs4
+  545  python
+  546  sudo apt-get install calibre
+  547  calibre --v
+  548  calibre --version
+  549  java --version
+  550  sudo apt-get update
+  551  java --version
+  552  sudo apt install default-jre
+  553  java --version
+  554  javac helo.java
+  555  sudo apt-get install default-jre
+  556  javac hello.java
+  557  sudo apt-get install default-jdk
+  558  javac he.java
+  559  cd Desktop/
+  560  cd Sunsoft Sapient
+  561  javac Employee.java
+  562  clear
+  563  javac Employee.java
+  564  clear
+  565  javac Employee.java
+  566  python
+  567  clear
+  568  javac Employee.java
+  569  clear
+  570  javac Employee.java
+  571  clear
+  572  javac Employee.java
+  573  clear
+  574  javac Employee.java
+  575  clear
+  576  javac Employee.java
+  577  clear
+  578  javac Employee.java
+  579  java Driver
+  580  javac Employee.java
+  581  java Driver
+  582  clear
+  583  javac Employee.java
+  584  java Driver
+  585  javac Employee.java
+  586  java Driver
+  587  clear
+  588  javac Employee.java
+  589  clear
+  590  javac Employee.java
+  591  clear
+  592  javac Employee.java
+  593  clear
+  594  javac Employee.java
+  595  clear
+  596  javac Employee.java
+  597  clear
+  598  javac Employee.java
+  599  clear
+  600  javac Employee.java
+  601  java Driver
+  602  clear
+  603  javac Employee.java
+  604  java Driver
+  605  javac Employee.java
+  606  java Driver
+  607  clear
+  608  javac Employee.java
+  609  java Driver
+  610  clear
+  611  java Driver
+  612  sudo snap install notepad-plus-plus
+  613  javac Employee.java
+  614  java Driver
+  615  clear
+  616  javac Demo.java
+  617  java Demo
+  618  clear
+  619  javac Demo.java
+  620  java Demo
+  621  clear
+  622  javac Employee.java
+  623  clear
+  624  javac Employee.java
+  625  clear
+  626  javac Employee.java
+  627  clear
+  628  javac Employee.java
+  629  clear
+  630  javac Employee.java
+  631  java Driver
+  632  clear
+  633  javac Employee.java
+  634  java Driver
+  635  clea
+  636  clear
+  637  javac Employee.java
+  638  clear
+  639  javac Employee.java
+  640  java Driver
+  641  clear
+  642  javac Employee.java
+  643  java Driver
+  644  javac Employee.java
+  645  java Driver
+  646  javac Employee.java
+  647  java Driver
+  648  clear
+  649  rm .*
+  650  rm /.*
+  651  clear
+  652  javac Employee.java
+  653  java Driver
+  654  javac Employee.java
+  655  java Driver
+  656  clear
+  657  javac Employee.java
+  658  java Driver
+  659  clear
+  660  javac Employee.java
+  661  java Driver
+  662  clear
+  663  sudo apt-get update
+  664  sudo apt-get install sublime
+  665  snap --version
+  666  python -version
+  667  python --version
+  668  python -m venv pavanvenv
+  669  pip install tensorflow
+  670  conda-navigator
+  671  conda -navigator
+  672  history
+  673  anaconda -navigator
+  674  anaconda-navigator
+  675  sudo apt update
+  676  pip install tensorflow
+  677  ls
+  678  anaconda-navigator
+  679  pip install tensorflow
+  680  opencv -version
+  681  history
+  682  pkg-config --modversion opencv
+  683  sudo apt update
+  684  python --version
+  685  python3 --version
+  686  sudo apt insatll python-opencv
+  687  sudo apt insatl python-opencv
+  688  sudo apt install python-opencv
+  689  python
+  690  sudo apt install python-opencv
+  691  python
+  692  conda install openc
+  693  conda install opencv
+  694  clear
+  695  pip install opencv-python
+  696  python
+  697  pkg-config --cflags opencv
+  698  sudo apt update
+  699  python setup.py build_ext --inplace
+  700  clear
+  701  python flow --model cfg/yolo.cfg --load bin/yolo.weights --demo videofile.mp4 --saveVideo
+  702  sudo pip show tensorflow
+  703  pip uninstall tensorflow
+  704  pip install tensorflow-cpu
+  705  python flow --model cfg/yolo.cfg --load bin/yolo.weights --demo videofile.mp4 --saveVideo
+  706  pip show tensorflow
+  707  pip show tensorflow-cpu
+  708  pip uninstall tensorflow-cpu
+  709  pip install tensorflow==1.15
+  710  python flow --model cfg/yolo.cfg --load bin/yolo.weights --demo videofile.mp4 --saveVideo
+  711  python flow --model cfg/yolo.cfg --load bin/yolov2.weights --demo videofile.mp4 --saveVideo
+  712  python flow --model cfg/yolo.cfg --load bin/yolov2.weights --demo samplevideo.mp4 --saveVideo
+  713  pip show opencv
+  714  pip show openc
+  715  python
+  716  quit
+  717  exit
+  718  anaconda-navigator
+  719  sudo apt update
+  720  python flow --model cfg/yolo.cfg --load bin/yolov2.weights --demo samplevideo.mp4 --saveVideo
+  721  python flow --model cfg/yolo.cfg --load bin/yolov2.weights --demo RoomSample.mp4 --saveVideo
+  722  anaconda-navigator
+  723  python setup.py build_ext --inplace
+  724  python  python3 setup.py build_ext --inplacesetup.py build_ext --inplace
+  725  python/home/pavan117/Downloads/Compressed/darkflow-master/setup.py build_ext --inplace
+  726  python /home/pavan117/Downloads/Compressed/darkflow-master/setup.py build_ext --inplace
+  727  gedit pavanyolotut.py
+  728  python pavanyolotut.py
+  729  source /home/pavan117/anaconda3/bin/activate
+  730  conda activate base
+  731  /home/pavan117/anaconda3/bin/python /home/pavan117/Downloads/Compressed/darkflow-master/pavanyolotut.py
+  732  python pavanyolotut.py
+  733  clear
+  734  python pavanyolotut.py
+  735  clear
+  736  python pavanyolotut.py
+  737  clear
+  738  python pavanyolotut.py
+  739  source /home/pavan117/anaconda3/bin/activate
+  740  conda activate base
+  741  /home/pavan117/anaconda3/bin/python /home/pavan117/Downloads/Compressed/darkflow-master/pavanyolotut.py
+  742  sudo apt-get install blender
+  743  sudo rm /var/lib/apt/lists/lock
+  744  sudo apt-get install blender
+  745  sudo apt-get install chrome
+  746  blender --version
+  747  blender
+  748  lsof -i 8080
+  749  lsof -i :8080
+  750  clear
+  751  lsof -i :8080
+  752  asd==
+  753  npm --version
+  754  sudo apt-get install node
+  755  sudo apt-get install curl
+  756  curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+  757  sudo apt-get install nodejs
+  758  npm -version
+  759  npm --version
+  760  sudo apt install npm
+  761  node -v
+  762  npm -v
+  763  npm install cypress --save-dev
+  764  clear
+  765  npm init
+  766  npm install cypress --save-dev
+  767  node_modules/.bin/cypress open
+  768  .bin/cypress run
+  769  cd ..
+  770  node_modules/.bin/cypress run
+  771  node_modules/.bin/cypress open
+  772  sudo node_modules/.bin/cypress open
+  773  sudo node_modules/.bin/cypress open --browser firefox
+  774  sudo node_modules/.bin/cypress open
+  775  sudo node_modules/.bin/cypress open --browser electron
+  776  cd usr/bin
+  777  cd /usr/bin
+  778  ls firefox
+  779  cd /usr/bin
+  780  ls google-chrome
+  781  node_modules/.bin/cypress open --browser /usr/bin/firefox
+  782  node_modules/.bin/cypress open
+  783  node_modules/.bin/cypress open --browser /usr/bin/chrome
+  784  node_modules/.bin/cypress open --browser chrome
+  785  node_modules/.bin/cypress open --browser google-chrome
+  786  node_modules/.bin/cypress open --browser /usr/bingoogle-chrome
+  787  node_modules/.bin/cypress open --browser /usr/bin/google-chrome
+  788  node_modules/.bin/cypress open
+  789  node_modules/.bin/cypress open --browser google-chrome
+  790  node_modules/.bin/cypress open --browser /usr/bin/firefox
+  791  npm uninstall cypress
+  792  clear
+  793  cd ..
+  794  ls
+  795  cd ./CYpressSelfLEarn
+  796  npm init
+  797  npm install cypress --save-dev
+  798  node_modules/.bin/cypress open
+  799  npm uninstall cypress
+  800  cypress open
+  801  npm install cypress --save-dev
+  802  npm init
+  803  npm install cypress --save-dev
+  804  node_modules/.bin/cypress open
+  805  python
+  806  python --version
+  807  python
+  808  clear
+  809  python
+  810  cc
+  811  clear
+  812  python
+  813  history
+  814  C/home/pavan117/Downloads/Compressed/darkflow-master/pavanyolotut.py
+  815  source /home/pavan117/anaconda3/bin/activate
+  816  conda activate base
+  817  python pavanyolotut.py
+  818  python
+  819  gedit lasya_phone_password
+  820  java
+  821  java -version
+  822  sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
+  823  sh studio.sh
+  824  cd bin
+  825  sh studio.sh
+  826  sudo sh studio.sh
+  827  sudo apt install qemu-kvm
+  828  sudo adduser Pavan kvm
+  829  sudo adduser $Pavan kvm
+  830  sudo adduser Pavan kvm
+  831  sudo adduser  <Pavan> kvm
+  832  sudo adduser pavan kvm
+  833  sudo adduser $Pavan kvm
+  834  sudo adduser--ingroup $Pavan kvm
+  835  sudo adduser --ingroup $Pavan kvm
+  836  sudo apt install qemu-kvm
+  837  sudo adduser $Pavan kvm
+  838  sudo setfacl -m u:$Pavan:rwx /dev/kvm
+  839  ls -la /dev/km
+  840  ls -la /dev/kvm
+  841  grep kvm /etc/group
+  842  who
+  843  sudo adduser $pavan117 kvm
+  844  sudo adduser --ingroup $pavan117 kvm
+  845  sudo adduser pavan117 kvm
+  846  sudo apt remove qemu-kvm
+  847  sudo apt install qemu-kvm
+  848  sudo adduser pavan117 kvm
+  849  make install
+  850  make install gnome-shell-extension-tool -e no-title-bar@franglais125.gmail.com
+  851  node -version
+  852  node --version
+  853  npm --v
+  854  cypress ==v
+  855  cypress open
+  856  ./cypress open
+  857  Cypress open
+  858  /Cypress open
+  859  ./Cypress open
+  860  ./cypress open
+  861  ./Cypress open
+  862  python
+  863  xampp
+  864  lampp
+  865  sudo xampp-linux-x64-7.2.31-0-installer.run
+  866  sudo run xampp-linux-x64-7.2.31-0-installer.run
+  867  sudo ./xampp-linux-x64-7.2.31-0-installer.run
+  868  cd /opt/lampp
+  869  ls
+  870  ./manager-linux-x64.run
+  871  sudo ./manager-linux-x64.run
+  872  sudo apt install flatpak
+  873  flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+  874  flatpak install flathub com.github.geigi.cozy
+  875  cozy
+  876  com.github.geigi.cozy
+  877  sudo add-apt-repository ppa:ricotz/docky
+  878  sudo apt-get update
+  879  cd /opt
+  880  ls
+  881  cd lampp
+  882  ls
+  883  sudo ./manager-linux-x64.run
+  884  sudo apt install gnome-themes-standard gtk2-engines-murrine libglib2.0-dev libxml2-utils
+  885  sudo apt install materia-gtk-theme
+  886  sudo add-apt-repository ppa:snwh/pulp
+  887  sudo apt-get update
+  888  sudo apt-get install paper-gtk-theme paper-icon-theme
+  889  sudo add-apt-repository ppa:snwh/pulp
+  890  sudo add-apt-repository ppa:snwh/ppa
+  891  sudo apt-get install paper-gtk-theme paper-icon-theme
+  892  javac
+  893  sudo apt-get update
+  894  sudo apt-get install paper-icon-theme
+  895  cd /usr/share/applications
+  896  ls
+  897  ls *android*
+  898  gedit android-studio.desktop
+  899  sudo add-apt-repository ppa:papirus/papirus
+  900  sudo apt install papirus-icon-theme
+  901  cd Desktop
+  902  history>history.txt
+  903  gedit hitory.txt
+  904  history
+  905  history > history.txt
+  906  source /home/pavan117/anaconda3/bin/activate
+  907  conda activate base
+  908  /home/pavan117/anaconda3/bin/python /home/pavan117/Downloads/Compressed/darkflow-master/pothole_detection/draw_box.py
+  909  pip env
+  910  echo $VIRTUAL_ENV
+  911  echo VIRTUAL_ENV
+  912  echo $VIRTUAL_ENV
+  913  python
+  914  python draw_box.py
+  915  python generate_xml.py
+  916  python draw_box.py
+  917  python generate_xml.py
+  918  python draw_box.py
+  919  python generate_xml.py
+  920  python draw_box.py
+  921  python flow --model cfg/tiny-yolo-voc-1c.cfg --load bi/tiny-yolov2.weights --train --annotations /home/pavan117/Downloads/Compressed/darkflow-master/pothole_detection/annotations --dataset /home/pavan117/Pictures/Pothole_dataset --epoch 300
+  922  cd ..
+  923  python flow --model cfg/tiny-yolo-voc-1c.cfg --load bi/tiny-yolov2.weights --train --annotations /home/pavan117/Downloads/Compressed/darkflow-master/pothole_detection/annotations --dataset /home/pavan117/Pictures/Pothole_dataset --epoch 300
+  924  python flow --model cfg/tiny-yolo-voc-1c.cfg --load bi/tiny-yolov2.weights --train --annotation /home/pavan117/Downloads/Compressed/darkflow-master/pothole_detection/annotations --dataset /home/pavan117/Pictures/Pothole_dataset --epoch 300
+  925  python flow --model cfg/tiny-yolo-voc-1c.cfg --load bin/tiny-yolov2.weights --train --annotation /home/pavan117/Downloads/Compressed/darkflow-master/pothole_detection/annotations --dataset /home/pavan117/Pictures/Pothole_dataset --epoch 300
+  926  python flow --model cfg/tiny-yolo-voc-1c.cfg --load bin/tiny-yolo-voc.weights --train --annotation /home/pavan117/Downloads/Compressed/darkflow-master/pothole_detection/annotations --dataset /home/pavan117/Pictures/Pothole_dataset --epoch 300
+  927  python pavanyolotut.py
+  928  conda-navigator
+  929  conda --navigator
+  930  conda -navigator
+  931  python
+  932  rm *_detected*
+  933  python predict.py -c config.json -w trained_wts.h5 -i potholes.mp4
+  934  pip install imgaug
+  935  python predict.py -c config.json -w trained_wts.h5 -i potholes.mp4
+  936  pip install keras
+  937  python predict.py -c config.json -w trained_wts.h5 -i potholes.mp4
+  938  clear
+  939  python predict.py -c config.json -w trained_wts.h5 -i potholes.mp4
+  940  python predict.py -c config.json -w trained_wts.h5 -i /home/pavan117/Pictures/Pothole_dataset/2.jpg
+  941  clear
+  942  python predict.py -c config.json -w trained_wts.h5 -i /home/pavan117/Pictures/Pothole_dataset/16.jpg
+  943  clear
+  944  python predict.py -c config.json -w trained_wts.h5 -i 16.jpg
+  945  python predict.py -c config.json -w trained_wts.h5 -i potholes.mp4
+  946  python pavan.py -c config.json -w trained_wts.h5 -i potholes.mp4
+  947  python pavan.py -c config.json -w trained_wts.h5 -i 16.jpg
+  948  cd /opt/lampp
+  949  ls
+  950  sudo ./manager-linux-x64.run
+  951  sudo apachectl stop
+  952  sudo ./manager-linux-x64.run
+  953  python pavan.py -c config.json -w trained_wts.h5 -i 16.jpg
+  954  python final_actual_with_log_predict.py -c config.json -w trained_wts.h5 -i 16.jpg
+  955  node_modules/.bin/cypress open --chrome
+  956  node_modules/.bin/cypress open -chrome
+  957  node_modules/.bin/cypress open
+  958  node_modules/.bin/cypress run
+  959  clear
+  960  node_modules/.bin/cypress ru
+  961  node_modules/.bin/cypress run
+  962  node_modules/.bin/cypress open
+  963  rm *.jgp.*
+  964  rm *.jgp*
+  965  rm *.jpg*
+  966  node_modules/.bin/cypress open
+  967  ls
+  968  clear
+  969  node_modules/.bin/cypress open
+  970  cd /opt/bin/lampp/
+  971  c
+  972  cd opt/bin/lampp/
+  973  cd opt
+  974  history
+  975  cd /opt
+  976  ls
+  977  clear
+  978  sudo /opt/lampp/manager-linux-x64.run
+  979  anaconda-navigator
+  980  cd DjangoApiTutorial
+  981  pip install gjango
+  982  pip install django
+  983  pip django -v
+  984  django -v
+  985  pip install djangorestframework
+  986  cd ..
+  987  django-admin startproject DjangoApiTutorial
+  988  cd DjangoApiTutorial
+  989  django-admin startapp quickstart
+  990  python manage.py migrate
+  991  python manage.py createsuperuser --pavan14vamsi@gmail.com --username pavan
+  992  python manage.py createsuperuser --email pavan14vamsi@gmail.com --username pavan
+  993  node_module/.bin/cypress open
+  994  cd ..
+  995  node_module/.bin/cypress open
+  996  node_modules/.bin/cypress open
+  997  python -m
+  998  python -h
+  999  python -h > p.txt
+ 1000  gedit p.txt
+ 1001  rm p.txt
+ 1002  pip install mysql-connector-python
+ 1003  python
+ 1004  sudo /opt/lampp/manager-linux-x64.run
+ 1005  history > his.txt
+ 1006  python dummygenerator.py
+ 1007  python csv_checker.py
+ 1008  python dummygenerator.py
+ 1009  clear
+ 1010  python dummygenerator.py
+ 1011  clear
+ 1012  python dummygenerator.py
+ 1013  clear
+ 1014  python dummygenerator.py
+ 1015  clear
+ 1016  python dummygenerator.py
+ 1017  clear
+ 1018  clear
+ 1019  python dummygenerator.py
+ 1020  clear
+ 1021  python dummygenerator.py
+ 1022  clear
+ 1023  python dummygenerator.py
+ 1024  clear
+ 1025  python dummygenerator.py
+ 1026  python final_acutal_with_log_predict.py
+ 1027  ls
+ 1028  python final_actual_with_log_predict.py
+ 1029  clear
+ 1030  python final_actual_with_log_predict.py
+ 1031  python predict.py
+ 1032  python final_actual_with_log_predict.py -c config.json -w trained_wts.h5 -i 16.jpg
+ 1033  clear
+ 1034  python final_actual_with_log_predict.py -c config.json -w trained_wts.h5 -i 16.jpg
+ 1035  python dummygenerator.py
+ 1036  python csv_checker.py
+ 1037  vscode
+ 1038  vs
+ 1039  pip install pylint-django
+ 1040  python mange.py runserver
+ 1041  python manage.py runserver
+ 1042  python manage.py migrate
+ 1043  python manage.py makemigrations polls
+ 1044  clear
+ 1045  python manage.py makemigrations polls
+ 1046  python manage.py sqlmigrate polls 0001
+ 1047  python manage.py migrate
+ 1048  python manage.py shell
+ 1049  clear
+ 1050  python manage.py shell
+ 1051  python manage.py makemigrations polls
+ 1052  python manage.py migrate
+ 1053  python manage.py shell
+ 1054  clear
+ 1055  python manage.py createsupreuser
+ 1056  python manage.py createsuperuser
+ 1057  python manage.py runserver
+ 1058  python manage.py createsuperuser
+ 1059  python manage.py runserver
+ 1060  python
+ 1061  python manage.py runserver
+ 1062* 
+ 1063  git config --global user.email "pavan14vamsi@gmail.com"
+ 1064  git config
+ 1065  git config --global
+ 1066  clear
+ 1067  git config --global user.name "Pavan Vamsi Tadikonda"
+ 1068  git config --global
+ 1069  git config --global -l
+ 1070  cd Courses/profiles_rest_api
+ 1071  git init
+ 1072  git add .
+ 1073  git commit -am "initial commit"
+ 1074  ls ~
+ 1075  clear
+ 1076  ls ~/ssh
+ 1077  ls ~/.ssh
+ 1078  ssh-keygen -t rsa -b 4096 -C "pavan14vamsi@gmail.com"
+ 1079  ls ~/.ssh
+ 1080  cat ~/.ssh/id_rsa.pub
+ 1081  git remote add origin https://github.com/Pavan14vamsi/profiles_rest_api.git
+ 1082  git push -u origin master
+ 1083  postgresql --version
+ 1084  postgre --version
+ 1085  git add .
+ 1086  git commit -am "Configured vagrant"
+ 1087  git push origin
+ 1088  python -m venv --version
+ 1089  clear
+ 1090  python -m venv
+ 1091  deactivate
+ 1092  git add .
+ 1093  git commit -am "Created django project and app"
+ 1094  git push origin
+ 1095  git add .
+ 1096  git commit -am "Added userprofile and userprofilemanager models"
+ 1097  git push origin
+ 1098  history > history.txt

@@ -6,25 +6,30 @@ from django.contrib.auth.models import AbstractBaseUser, PermissionsMixin, BaseU
 class UserProfileManager(BaseUserManager):
     """Manager for user profiles"""
 
-    def create_user(self, email, name, pwd = None):
+    def create_user(self, email, name, password = None): #so i initially wrote pwd instead of password, turns out pwd = None implies the definition of the function has a parameter called pwd, that's what was breaking it before
         """Creates a new user profile"""
         if not email:
             raise ValueError("Users must have email")
 
         email = self.normalize_email(email)
         user = self.model(email = email, name = name) #self.model is UserProfileManager
-        user.set_password(pwd) #inbuit function in BaseUserManager class, same as self.model i guess
+
+        user.set_password(password) #inbuit function in BaseUserManager class, same as self.model i guess
         user.save(using=self._db)
+
         return user
 
-    def create_superuser(self, email, name, pwd):
+    def create_superuser(self, email, name, password):
         """creates a new superuser with the given details"""
-        user = self.create_user(email, name, pwd)
+        user = self.create_user(email, name, password)
+
         user.is_superuser = True
         user.is_staff = True  #These is_* vars are within the PermissionsMixin class
+        user.save(using=self._db)
+
         return user
 
-    pass #Class over
+
 
 
 class UserProfile(AbstractBaseUser, PermissionsMixin):
@@ -36,7 +41,7 @@ class UserProfile(AbstractBaseUser, PermissionsMixin):
     objects = UserProfileManager()
 
     USERNAME_FIELD ='email'
-    REQUIRED_FIELD = ['name']   #I think these are django inbuilt names for these arrays
+    REQUIRED_FIELDS = ['name']   #I think these are django inbuilt names for these arrays
     def get_full_name(self):
         """Returns the name"""
         return self.name

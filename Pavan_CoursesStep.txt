@@ -1,0 +1,19 @@
+Git
+1) Go to the project folder
+2) run "git init"
+3) This folder is now a git local repo, .git folder is created within
+4) Then you can make changes here and then push
+5) To send these changes to the github repo:
+        git add .                     //tells git to note all changes
+        git commit -am "Comments"     //Sorta like makes changes ready to implement with a comment to describe the changes
+        git push origin               //Makes the actual changes to the github repo
+
+
+Vagrant commands
+1) create a directory where all the files will be
+2) create a VagrantFile (the contents are unknown to me)
+3) Then run the "vagrant up" command, this will create a server
+4) Then run "vagrant ssh" command to connect to the dev runserver
+5) within it there is a folder called vagrant "cd /vagrant", it didn't show up when i ran "ls"
+6) within this, all the files, folder in the local computer within the project folder are duplicated in this folder
+   Synced folder
