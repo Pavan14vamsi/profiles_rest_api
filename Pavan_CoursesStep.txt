@@ -17,3 +17,12 @@ Vagrant commands
 5) within it there is a folder called vagrant "cd /vagrant", it didn't show up when i ran "ls"
 6) within this, all the files, folder in the local computer within the project folder are duplicated in this folder
    Synced folder
+7) So the idea is, you use atom to code on 'your pc' and vagrant immediately copies it onto 'dev server' then you log into dev server by going
+   to the project folder and then typing vagrant ssh and in that terminal use "cd /vagrant" and there run "python manage.py runserver"
+
+
+Intro API view
+1) So rest_framework is handy, just extend the APIView class in a class within the views.py file.
+2) Within that class define functions with names such as get, post, put etc...
+3) If you get a GET http call to that particular class in the views.py with get request the get() in the class is executed, if POST http call comes
+   then the post() method within the class get executed, that's all, pretty nifty
