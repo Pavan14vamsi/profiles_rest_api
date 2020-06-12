@@ -26,3 +26,22 @@ Intro API view
 2) Within that class define functions with names such as get, post, put etc...
 3) If you get a GET http call to that particular class in the views.py with get request the get() in the class is executed, if POST http call comes
    then the post() method within the class get executed, that's all, pretty nifty
+
+
+GET request:
+1) pretty straightforward, you get a get request with a certain id or something and return an object which matches that id
+2) The get() method starts executing in the selected class within the view, returns a "response" type object
+
+POST request:
+1) You have to create a serializer class extend the serializers.Serializer in that class.
+2) If you expect a char field coming then you have to write
+   name = serializers.CharField(max_length=10) #this ensures that you get a charfield and the length is <= 10
+   Similarly for other fields if you have any
+3) Then in the view, you have to assign variable to the serializer you created just for this, tho you made a class it has be written as:
+   serializer_class = serializers.HelloSerializer
+   notice no brackets
+4) Then within the post function, you first validate the data in the HTTP request with:
+   var2 = serializer_class.validated_data(request.data)
+   var2 is a class type of HelloSerializer
+5) If the data is validated then, send a response, if not raise some error
+6) 

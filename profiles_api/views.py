@@ -21,8 +21,8 @@ class HelloApiView(APIView):
 
     def post(self, request):# format = None):
         """Checks the post function"""
-        serializer = self.serializer_class(data=request.data)\
-
+        serializer = self.serializer_class(data=request.data)
+        #print(type(serializer)) #serializer is a class type of HelloSerializer
         if serializer.is_valid(): #inbuilt method
             name = serializer.validated_data.get('name') #inbuilt method
             message = f'Hello {name}'
@@ -30,3 +30,15 @@ class HelloApiView(APIView):
         else:
             return response(serializer.errors,  #inbuilt dictionary maybe
             status = status.HTTP_404_NOT_FOUND)
+
+    def put(self, request, pk=None):
+        """Handles the updating of an object"""
+        return Response({"Method":"PUT"})
+
+    def patch(self, request, pk=None):
+        """Handles the partial updating of an object"""
+        return Response({"Method":"PATCH"})
+
+    def delete(self, request, pk=None):
+        """Handles the deletion of an object"""
+        return Response({"Method":"Delete"})
