@@ -25,7 +25,7 @@ Intro API view
 1) So rest_framework is handy, just extend the APIView class in a class within the views.py file.
 2) Within that class define functions with names such as get, post, put etc...
 3) If you get a GET http call to that particular class in the views.py with get request the get() in the class is executed, if POST http call comes
-   then the post() method within the class get executed, that's all, pretty nifty
+   then the post() method within the class get executed,if delete http request comes then delete() is executed and so on, that's all, pretty nifty
 
 
 GET request:
@@ -44,4 +44,25 @@ POST request:
    var2 = serializer_class.validated_data(request.data)
    var2 is a class type of HelloSerializer
 5) If the data is validated then, send a response, if not raise some error
-6) 
+
+
+
+Intro to ViewSet
+1) You need to create a class which extends the viewset.Viewset
+2) Within it create the functions "create", "update", "list" etc... these are special functions
+3) Now in the urls.py of the project, create a object of the DefaultRouter class, and use the register the url there
+   my_router = DefaultRouter()
+4) Then in the urls.py of the project, you have to do two things
+      I) register the ViewSet in the my_router object using the method .register(), below is the line of code
+            "router.register("helloViewset", views.HelloViewSet, base_name = "helloViewset")"
+      II) Then include the router urls in the url_patterns array, like below
+            "path('', include(router.urls))"
+5) So how does the view set know which function to execute?
+    retrieve() : executed when you give a primary key with the url, for example,
+                 mysite.com/viewset/12
+                 the number 12 will make the rest_framework execute the retrieve()
+     list():     THis executed by default
+                 mysite.com/viewset/
+                 this will execute the list() method
+     update():   So when you give a put request it does This
+     destroy():  the delete http requests will give this
