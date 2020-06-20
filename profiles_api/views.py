@@ -2,7 +2,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from profiles_api import serializers, models, permissions
-from rest_framework import viewsets
+from rest_framework import viewsets, filters
 from rest_framework.authentication import TokenAuthentication
 
 # Create your views here.
@@ -107,3 +107,6 @@ class userProfileViewSet(viewsets.ModelViewSet):
     Then the request goes to the has_object_permission method of the UpdateOwnProfile class. If the method
     returns true, only then the view set works
     """
+    filter_backends = (filters.SearchFilter,)
+    search_fields = ('name', 'email')
+    
