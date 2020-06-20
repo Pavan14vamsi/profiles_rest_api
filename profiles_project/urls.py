@@ -22,6 +22,7 @@ from profiles_api import views
 
 router = DefaultRouter()
 router.register("helloViewset", views.HelloViewSet, base_name = "helloViewset")
+router.register("profile", views.userProfileViewSet)
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('profiles_api/',include('profiles_api.urls')),

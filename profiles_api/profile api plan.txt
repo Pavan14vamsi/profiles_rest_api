@@ -1,0 +1,22 @@
+1)  Handle registration of new users
+      validate profile Data
+
+2)  List existing users to search for other users
+
+3)  View Specific id , to check their own and other's profiles
+
+4)  Update profile
+      change Name, email or password
+
+5) Delete profile
+
+
+URL Planning
+1)api/profiles
+    get:    lists all profils
+    post:   Create new users
+
+2) api/profiles/<profile_id>
+    get:    view specific id
+    patch:  update the profile
+    delete: Delete the specific id, if it is their own

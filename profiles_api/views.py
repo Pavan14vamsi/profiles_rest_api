@@ -1,8 +1,10 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
-from profiles_api import serializers
+from profiles_api import serializers, models, permissions
 from rest_framework import viewsets
+from rest_framework.authentication import TokenAuthentication
+
 # Create your views here.
 
 class HelloApiView(APIView):
@@ -77,14 +79,31 @@ class HelloViewSet(viewsets.ViewSet):
         """Retrieve a particular object"""
         return Response({"Message":"Get"})
 
+
     def update(self,request,pk=None ):
         """Update a particular object"""
         return Response({"Message": "PUT"})
+
 
     def partial_update(self,request, pk=None):
         """Update a particular object"""
         return Response({"Message": "PATCH"})
 
+
     def destroy(self,request, pk=None):
         """Update a particular object"""
         return Response({"Message": "DELETE"})
+
+
+class userProfileViewSet(viewsets.ModelViewSet):
+    """Handles creating and updating profiles"""
+    serializer_class = serializers.UserSerializer
+    queryset = models.UserProfile.objects.all()
+    authentication_classes = (TokenAuthentication,)
+    permission_classes = (permissions.UpdateOwnProfile,)
+    """
+    When a request to this viewset is made, we it runs through the inbuilt TokenAuthentication class
+    The class performs authentication (with inbuilt instructions)
+    Then the request goes to the has_object_permission method of the UpdateOwnProfile class. If the method
+    returns true, only then the view set works
+    """
