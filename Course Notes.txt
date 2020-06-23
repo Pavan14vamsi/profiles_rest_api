@@ -66,3 +66,9 @@ Intro to ViewSet
                  this will execute the list() method
      update():   So when you give a put request it does This
      destroy():  the delete http requests will give this
+
+
+permissions.py
+1) You create a permissions class which extends the permision.BasePermission class
+2) But this has to be associated with some ViewSet
+3) So every ViewSet comes inbuilt with a few tuples (probably from the parent classes), you add this to the viewset
